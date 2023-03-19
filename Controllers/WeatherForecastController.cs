@@ -32,15 +32,7 @@ namespace WebApplication1.Controllers
             .ToArray();
         }
 
-        [HttpGet(Name = "UserDetails")]
-        public IEnumerable<UserDetails> Get1()
-        {
-            return Enumerable.Range(1, 5).Select(index => new UserDetails
-            {
-                UserName = 
-            })
-            .ToArray();
-        }
+      
 
     }
 }

@@ -1,15 +1,4 @@
-﻿//using Microsoft.AspNetCore.Mvc;
-
-//namespace WebApplication1.Controllers
-//{
-//    public class AuthenticateController : Controller
-//    {
-//        public IActionResult Index()
-//        {
-//            return View();
-//        }
-//    }
-//}
+﻿
 
 using JWTAuthentication.NET6._0.Auth;
 using Microsoft.AspNetCore.Identity;
